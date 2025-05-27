@@ -28,21 +28,32 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jty-aJ-YxI">
+                                <rect key="frame" x="30" y="585" width="196" height="17"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="5YU-Sw-b2V" firstAttribute="top" secondItem="tmg-Fd-IQN" secondAttribute="bottom" constant="24" id="4EF-bl-hEQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jty-aJ-YxI" secondAttribute="trailing" priority="999" constant="16" id="NxZ-Zh-qmc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5YU-Sw-b2V" secondAttribute="trailing" constant="16" id="YiO-kh-qbY"/>
                             <constraint firstItem="tmg-Fd-IQN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="Zl7-kT-CRG"/>
                             <constraint firstItem="tmg-Fd-IQN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="151" id="ivM-Dq-OFi"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="5YU-Sw-b2V" secondAttribute="bottom" constant="240" id="m5d-sb-hl6"/>
+                            <constraint firstItem="jty-aJ-YxI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="nJP-ha-oxU"/>
+                            <constraint firstItem="jty-aJ-YxI" firstAttribute="top" secondItem="5YU-Sw-b2V" secondAttribute="bottom" constant="7.3300000000000001" id="tSf-sI-2dU"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tmg-Fd-IQN" secondAttribute="trailing" constant="16" id="th3-Lm-Qh5"/>
                             <constraint firstItem="5YU-Sw-b2V" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="wcE-gC-HCn"/>
+                            <constraint firstItem="jty-aJ-YxI" firstAttribute="top" secondItem="5YU-Sw-b2V" secondAttribute="bottom" constant="7.3300000000000001" id="yOb-pb-uLV"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="labelOne" destination="tmg-Fd-IQN" id="Uj1-YJ-nxt"/>
+                        <outlet property="labelThree" destination="jty-aJ-YxI" id="YMe-2T-e9a"/>
                         <outlet property="labelTwo" destination="5YU-Sw-b2V" id="5aM-P4-CGw"/>
                     </connections>
                 </viewController>
